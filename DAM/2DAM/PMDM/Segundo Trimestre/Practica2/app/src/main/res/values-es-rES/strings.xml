@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="btIdentificar">Identificarse</string>
+    <string name="btDestruir">Destruir activitie</string>
+    <string name="bt_valorar">Valorar</string>
+    <string name="text_rating">Valora esta app</string>
+    <string name="bt_enviar_Rate">Enviar</string>
+    <string name="textNombre">Introduce tu nombre:</string>
+    <string name="textApellido">Introduce tu apellido:</string>
+    <string name="bt_enviar_registro">Enviar</string>
+    <string name="btCambiarFondo">Modo oscuro</string>
+    <string name="swich_on">Desactiva modo oscuro</string>
+    <string name="swich_off">Activa modo oscuro</string>
+    <string name="swich">Modo oscuro</string>
+    <string name="text_cambiar_fondo">Cambia el modo oscuro</string>
+    <string name="textMostrarNombre">Nombre:</string>
+    <string name="textMostrarApellido">Apellido:</string>
+</resources>

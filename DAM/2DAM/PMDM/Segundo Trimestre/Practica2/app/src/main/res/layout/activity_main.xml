@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/BackgroundMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Destruir"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btDestruir"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/Valorar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bt_valorar"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/Identificar"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btIdentificar"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/mostrarResultados"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Resultados"
+            android:textColor="#00796B" />
+
+        <Button
+            android:id="@+id/CambiarFondo"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btCambiarFondo"
+            android:textColor="#00796B" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

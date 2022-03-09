@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="bt_valorar">Rate App</string>
+    <string name="btIdentificar">Identify</string>
+    <string name="btCambiarFondo">Dark mode</string>
+    <string name="btDestruir">Destroy activitie</string>
+    <string name="text_rating">Rate this app</string>
+    <string name="bt_enviar_Rate">Send</string>
+    <string name="textNombre">Introduce your name:</string>
+    <string name="textApellido">Introduce your surname:</string>
+    <string name="bt_enviar_registro">Send</string>
+    <string name="swich_on">Disable dark mode</string>
+    <string name="swich_off">Enable dark mode</string>
+    <string name="swich">Dark mode</string>
+    <string name="text_cambiar_fondo">Change dark mode</string>
+    <string name="textMostrarNombre">Name:</string>
+    <string name="textMostrarApellido">Surname:</string>
+
+</resources>
